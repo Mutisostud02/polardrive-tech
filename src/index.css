@@ -1010,8 +1010,6 @@ section { padding: 80px 0; }
 
 /* Responsive */
 @media (max-width: 768px) {
-  .menu { display: none; }
-  .hamburger { display: flex; }
   .vehicle-grid, .bikes-grid, .cars-grid { grid-template-columns: 1fr; }
   .category-grid { grid-template-columns: 1fr; }
   .contact-grid { grid-template-columns: 1fr; }
@@ -1022,6 +1020,23 @@ section { padding: 80px 0; }
   .nav-tooltip { display: none !important; }
   .nav-text { display: inline; }
   .nav-icon { font-size: 1.125rem; }
+  
+  /* Ensure menu is still hidden by default on mobile */
+  nav .menu {
+    display: flex;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+  }
+  
+  /* Show menu when nav is open or hovered */
+  nav:hover .menu,
+  nav.open .menu {
+    display: flex;
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
   
   nav.open .menu .nav-item-with-tooltip a {
     justify-content: flex-start;
