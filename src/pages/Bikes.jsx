@@ -25,7 +25,7 @@ export default function Bikes() {
       name: 'Adventure',
       description: 'Versatile touring bikes for any terrain',
       icon: <FaMountain />,
-      image: '/images/bikes/sample-bike.jpg',
+      image: '/images/bikes/adventure-bike.jpg',
       count: 10
     },
     {
@@ -33,7 +33,7 @@ export default function Bikes() {
       name: 'Custom Builds',
       description: 'Unique, handcrafted motorcycles tailored to your vision',
       icon: <FaCog />,
-      image: '/images/bikes/cruiser-bike.jpg',
+      image: '/images/bikes/custom-bike.jpg',
       count: 8
     }
   ];
@@ -50,7 +50,7 @@ export default function Bikes() {
       torque: '112 Nm',
       weight: '193 kg',
       year: 2024,
-      image: '/images/bikes/sport-bike.jpg',
+      image: '/images/bikes/ducati-sport.jpg',
       badge: 'New Arrival',
       features: ['Racing ABS', 'Traction Control', 'Quick Shifter', 'LED Lights']
     },
@@ -64,7 +64,7 @@ export default function Bikes() {
       torque: '143 Nm',
       weight: '249 kg',
       year: 2024,
-      image: '/images/bikes/sample-bike.jpg',
+      image: '/images/bikes/adventure-bike.jpg',
       badge: 'Best Seller',
       features: ['Dynamic ESA', 'Riding Modes Pro', 'Keyless Ride', 'TFT Display']
     },
@@ -92,7 +92,7 @@ export default function Bikes() {
       torque: '141 Nm',
       weight: '238 kg',
       year: 2024,
-      image: '/images/bikes/sport-bike.jpg',
+      image: '/images/bikes/kawasaki-h2.jpg',
       badge: 'Supercharged',
       features: ['Supercharger', 'Cornering ABS', 'Launch Control', 'TFT Display']
     },
@@ -106,7 +106,7 @@ export default function Bikes() {
       torque: '87 Nm',
       weight: '201 kg',
       year: 2024,
-      image: '/images/bikes/sample-bike.jpg',
+      image: '/images/bikes/triumph-tiger.jpg',
       badge: 'Off-Road Ready',
       features: ['Off-Road Modes', 'Showa Suspension', 'Brembo Brakes', 'LED Cornering Lights']
     },
@@ -120,7 +120,7 @@ export default function Bikes() {
       torque: '162 Nm',
       weight: '305 kg',
       year: 2024,
-      image: '/images/bikes/cruiser-bike.jpg',
+      image: '/images/bikes/indian-chief-new.jpg',
       badge: 'Premium',
       features: ['Thunderstroke Engine', 'Ride Command', 'ABS', 'USB Charging']
     },
@@ -134,7 +134,7 @@ export default function Bikes() {
       torque: '93 Nm',
       weight: '189 kg',
       year: 2024,
-      image: '/images/bikes/sport-bike.jpg',
+      image: '/images/bikes/yamaha-mt09.jpg',
       badge: 'Value Pick',
       features: ['CP3 Engine', 'TFT Display', 'Quick Shifter', 'Traction Control']
     },
@@ -148,7 +148,7 @@ export default function Bikes() {
       torque: '120 Nm',
       weight: '220 kg',
       year: 2024,
-      image: '/images/bikes/cruiser-bike.jpg',
+      image: '/images/bikes/bobber-thunder.jpg',
       badge: 'One of a Kind',
       features: ['Hand-Built', 'Custom Paint', 'Chrome Details', 'Leather Seat']
     }
@@ -200,9 +200,6 @@ export default function Bikes() {
               <div key={category.id} className="category-card">
                 <div className="category-image">
                   <img src={category.image} alt={category.name} />
-                  <div className="category-overlay">
-                    <div className="category-icon">{category.icon}</div>
-                  </div>
                 </div>
                 <div className="category-content">
                   <h3>{category.name}</h3>
@@ -229,7 +226,7 @@ export default function Bikes() {
                 <div className="bike-image">
                   <img src={bike.image} alt={bike.name} />
                   <div className="bike-overlay">
-                    <button className="btn btn-primary">View Details</button>
+                    <Link to="/contact" className="btn btn-primary">View Details</Link>
                   </div>
                 </div>
                 <div className="bike-content">
@@ -267,7 +264,7 @@ export default function Bikes() {
                         <span className="original-price">NOK {bike.originalPrice.toLocaleString('no-NO')}</span>
                       )}
                     </div>
-                    <button className="btn btn-primary">Enquire Now</button>
+                    <Link to="/contact" className="btn btn-primary">Enquire Now</Link>
                   </div>
                 </div>
               </div>

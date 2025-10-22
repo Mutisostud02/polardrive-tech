@@ -99,11 +99,22 @@ export default function Contact() {
               </div>
             </div>
 
-            <div className="showroom-image">
-              <img src="/images/showroom.jpg" alt="Polardrive Tech AS" />
-              <div className="showroom-overlay">
-                <h3>Connect With Us</h3>
-                <p>We're here to help you find your perfect vehicle</p>
+            <div className="manager-profile">
+              <div className="manager-photo">
+                <img src="/images/manager-portrait.jpg" alt="Erik Nordström - Sales Manager" />
+              </div>
+              <div className="manager-info">
+                <h3>Erik Nordström</h3>
+                <p className="manager-title">Sales Manager</p>
+                <p className="manager-description">
+                  With over 15 years of experience in the luxury automotive industry, 
+                  Erik is dedicated to helping clients find their perfect vehicle. 
+                  Reach out directly for personalized assistance.
+                </p>
+                <div className="manager-contact">
+                  <p><strong>Direct Line:</strong> <a href="tel:+4712345678">+47 12 34 56 78</a></p>
+                  <p><strong>Email:</strong> <a href="mailto:erik.nordstrom@polardrivetechas.com">erik.nordstrom@polardrivetechas.com</a></p>
+                </div>
               </div>
             </div>
           </div>
@@ -241,11 +252,10 @@ export default function Contact() {
       <section className="contact-cta">
         <div className="container">
           <div className="cta-content">
-            <h2>Ready to Visit Us?</h2>
-            <p>Schedule an appointment for a personalized experience</p>
+            <h2>Have Questions?</h2>
+            <p>Our team is ready to assist you with your vehicle purchase</p>
             <div className="cta-buttons">
               <a href="tel:+4712345678" className="btn btn-primary btn-lg">Call Now</a>
-              <a href="https://calendly.com/polardrive" target="_blank" rel="noopener noreferrer" className="btn btn-outline-light btn-lg">Book Appointment</a>
             </div>
           </div>
         </div>

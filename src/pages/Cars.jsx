@@ -266,7 +266,7 @@ export default function Cars() {
                 <div className="car-image">
                   <img src={car.image} alt={car.name} />
                   <div className="car-overlay">
-                    <button className="btn btn-primary">View Details</button>
+                    <Link to="/contact" className="btn btn-primary">View Details</Link>
                   </div>
                 </div>
                 <div className="car-content">
@@ -307,7 +307,7 @@ export default function Cars() {
                         <span className="original-price">NOK {car.originalPrice.toLocaleString('no-NO')}</span>
                       )}
                     </div>
-                    <button className="btn btn-primary">Enquire Now</button>
+                    <Link to="/contact" className="btn btn-primary">Enquire Now</Link>
                   </div>
                 </div>
               </div>
