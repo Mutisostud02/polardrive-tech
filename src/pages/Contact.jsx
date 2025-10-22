@@ -68,9 +68,7 @@ export default function Contact() {
                 </div>
                 <h3>Call Us</h3>
                 <p>
-                  Sales: <a href="tel:+4712345678">+47 12 34 56 78</a><br />
-                  Service: <a href="tel:+4712345679">+47 12 34 56 79</a><br />
-                  Parts: <a href="tel:+4712345680">+47 12 34 56 80</a>
+                  General: <a href="tel:+4712345678">+47 12 34 56 78</a>
                 </p>
               </div>
 
@@ -80,9 +78,7 @@ export default function Contact() {
                 </div>
                 <h3>Email Us</h3>
                 <p>
-                  General: <a href="mailto:info@polardrivetechas.com">info@polardrivetechas.com</a><br />
-                  Sales: <a href="mailto:sales@polardrivetechas.com">sales@polardrivetechas.com</a><br />
-                  Service: <a href="mailto:service@polardrivetechas.com">service@polardrivetechas.com</a>
+                  General: <a href="mailto:info@polardrivetechas.com">info@polardrivetechas.com</a>
                 </p>
               </div>
 
@@ -113,7 +109,7 @@ export default function Contact() {
                 </p>
                 <div className="manager-contact">
                   <p><strong>Direct Line:</strong> <a href="tel:+4712345678">+47 12 34 56 78</a></p>
-                  <p><strong>Email:</strong> <a href="mailto:erik.nordstrom@polardrivetechas.com">erik.nordstrom@polardrivetechas.com</a></p>
+                  <p><strong>Email:</strong> <a href="mailto:info@polardrivetechas.com">info@polardrivetechas.com</a></p>
                 </div>
               </div>
             </div>

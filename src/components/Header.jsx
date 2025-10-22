@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
+import { FaHome, FaMotorcycle, FaCar, FaInfoCircle, FaEnvelope } from 'react-icons/fa'
 
 export default function Header() {
   const [open, setOpen] = useState(false)
@@ -31,11 +32,41 @@ export default function Header() {
         </button>
         <nav aria-label="Primary" className={open ? 'open' : ''}>
           <ul className="menu" onClick={closeMenu}>
-            <li><NavLink to="/" end>Home</NavLink></li>
-            <li><NavLink to="/bikes">Motorcycles</NavLink></li>
-            <li><NavLink to="/cars">Luxury Cars</NavLink></li>
-            <li><NavLink to="/about">About Us</NavLink></li>
-            <li><NavLink to="/contact">Contact</NavLink></li>
+            <li className="nav-item-with-tooltip">
+              <NavLink to="/" end>
+                <FaHome className="nav-icon" />
+                <span className="nav-text">Home</span>
+                <span className="nav-tooltip">Home</span>
+              </NavLink>
+            </li>
+            <li className="nav-item-with-tooltip">
+              <NavLink to="/bikes">
+                <FaMotorcycle className="nav-icon" />
+                <span className="nav-text">Motorcycles</span>
+                <span className="nav-tooltip">Motorcycles</span>
+              </NavLink>
+            </li>
+            <li className="nav-item-with-tooltip">
+              <NavLink to="/cars">
+                <FaCar className="nav-icon" />
+                <span className="nav-text">Luxury Cars</span>
+                <span className="nav-tooltip">Luxury Cars</span>
+              </NavLink>
+            </li>
+            <li className="nav-item-with-tooltip">
+              <NavLink to="/about">
+                <FaInfoCircle className="nav-icon" />
+                <span className="nav-text">About Us</span>
+                <span className="nav-tooltip">About Us</span>
+              </NavLink>
+            </li>
+            <li className="nav-item-with-tooltip">
+              <NavLink to="/contact">
+                <FaEnvelope className="nav-icon" />
+                <span className="nav-text">Contact</span>
+                <span className="nav-tooltip">Contact</span>
+              </NavLink>
+            </li>
           </ul>
         </nav>
       </div>

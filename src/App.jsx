@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header.jsx';
 import Footer from './components/Footer.jsx';
+import ScrollToTop from './components/ScrollToTop.jsx';
 import Home from './pages/Home.jsx';
 import Bikes from './pages/Bikes.jsx';
 import Cars from './pages/Cars.jsx';
@@ -41,6 +42,7 @@ function App() {
 
   return (
     <>
+      <ScrollToTop />
       <a className="skip-link" href="#main">Skip to content</a>
       <Header />
       <main id="main">

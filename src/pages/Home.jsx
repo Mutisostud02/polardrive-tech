@@ -331,27 +331,27 @@ export default function Home() {
           <div className="testimonial-slider">
             <div className="testimonial-slide">
               <div className="testimonial-content">
-                <p>"Exceptional service from start to finish! The team at Polardrive Tech helped me find my dream bike and made the entire process smooth and enjoyable."</p>
                 <div className="testimonial-author">
-                  <img src="/images/testimonials/client1.jpg" alt="Anders Johansen" />
-                  <div>
+                  <img src="/images/anders-johansen.jpg" alt="Anders Johansen" />
+                  <div className="testimonial-author-info">
                     <h4>Anders Johansen</h4>
                     <span>Ducati Panigale V4 Owner</span>
                   </div>
                 </div>
+                <p className="testimonial-quote">"Exceptional service from start to finish! The team at Polardrive Tech helped me find my dream bike and made the entire process smooth and enjoyable."</p>
               </div>
             </div>
             
             <div className="testimonial-slide">
               <div className="testimonial-content">
-                <p>"Trading in my old car for a new Mercedes G63 was a breeze. The team was professional, transparent, and truly cared about finding me the perfect vehicle."</p>
                 <div className="testimonial-author">
-                  <img src="/images/testimonials/client2.jpg" alt="Elin Berg" />
-                  <div>
+                  <img src="/images/elin-berg.jpg" alt="Elin Berg" />
+                  <div className="testimonial-author-info">
                     <h4>Elin Berg</h4>
                     <span>Mercedes G63 Owner</span>
                   </div>
                 </div>
+                <p className="testimonial-quote">"Trading in my old car for a new Mercedes G63 was a breeze. The team was professional, transparent, and truly cared about finding me the perfect vehicle."</p>
               </div>
             </div>
           </div>
