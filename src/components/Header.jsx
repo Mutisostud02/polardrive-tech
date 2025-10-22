@@ -20,17 +20,17 @@ export default function Header() {
             </div>
           </Link>
         </div>
-        <button
-          className="hamburger"
-          aria-label="Toggle menu"
-          aria-expanded={open}
-          onClick={() => setOpen(v => !v)}
-        >
-          <span />
-          <span />
-          <span />
-        </button>
         <nav aria-label="Primary" className={open ? 'open' : ''}>
+          <button
+            className="hamburger"
+            aria-label="Toggle menu"
+            aria-expanded={open}
+            onClick={() => setOpen(v => !v)}
+          >
+            <span />
+            <span />
+            <span />
+          </button>
           <ul className="menu" onClick={closeMenu}>
             <li className="nav-item-with-tooltip">
               <NavLink to="/" end>
