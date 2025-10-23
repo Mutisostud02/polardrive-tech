@@ -14,8 +14,8 @@ export default function Contact() {
 
   function onSubmit(e) {
     e.preventDefault();
-    // In a real app, send this data to your backend
-    console.log('Form submitted:', formData);
+    // In a real app, send this data to your backend API
+    // Example: await fetch('/api/contact', { method: 'POST', body: JSON.stringify(formData) })
     setSubmitted(true);
   }
 

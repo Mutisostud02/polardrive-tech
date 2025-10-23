@@ -57,7 +57,7 @@ export default function SEO({
       '@type': 'CarDealer',
       name: 'Polardrive Tech AS',
       url: SITE_URL,
-      logo: `${SITE_URL}/logo/polardrive-logo.png`,
+      logo: `${SITE_URL}/logo/android-chrome-512x512.png`,
       telephone: '+4712345678',
       email: 'info@polardrivetechas.com',
       address: {

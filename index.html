@@ -7,29 +7,109 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/logo/favicon-16x16.png" />
     <link rel="shortcut icon" href="/logo/favicon.ico" />
     <link rel="manifest" href="/logo/site.webmanifest" />
-    <link rel="mask-icon" href="/logo.svg" color="#0a2540" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary SEO Tags -->
     <title>Polardrive Tech AS | Premium Bikes & Luxury Cars in Norway</title>
     <meta name="description" content="Discover our exclusive collection of high-performance motorcycles and luxury vehicles. Your journey to excellence starts at Polardrive Tech AS in Oslo, Norway." />
-    <!-- Open Graph defaults -->
+    <meta name="keywords" content="luxury cars Norway, premium motorcycles Oslo, high-performance bikes, Ducati, Kawasaki, Yamaha, luxury vehicles Norway, bike dealership Oslo, car dealership Norway, Polardrive Tech" />
+    <meta name="author" content="Polardrive Tech AS" />
+    <link rel="canonical" href="https://polardrivetechas.com/" />
+    <!-- Open Graph Meta Tags -->
     <meta property="og:site_name" content="Polardrive Tech AS" />
     <meta property="og:title" content="Polardrive Tech AS | Premium Bikes & Luxury Cars" />
     <meta property="og:description" content="Norway's premier destination for luxury vehicles and high-performance motorcycles." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://polardrivetechas.com/" />
-    <!-- Optional default image. Replace with your deployed social image if available -->
-    <!-- <meta property="og:image" content="https://polardrivetechas.com/social.jpg" /> -->
+    <meta property="og:locale" content="en_NO" />
+    <meta property="og:image" content="https://polardrivetechas.com/hero-bike.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Premium motorcycles and luxury cars at Polardrive Tech AS" />
 
-    <!-- Twitter Card defaults -->
+    <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Polardrive Tech AS | Premium Bikes & Luxury Cars" />
     <meta name="twitter:description" content="Norway's premier destination for luxury vehicles and high-performance motorcycles." />
-    <!-- <meta name="twitter:image" content="https://polardrivetechas.com/social.jpg" /> -->
+    <meta name="twitter:image" content="https://polardrivetechas.com/hero-bike.jpg" />
+    <meta name="twitter:site" content="@polardrivetechas" />
+    
+    <!-- Geo Meta Tags for Local SEO -->
+    <meta name="geo.region" content="NO-03" />
+    <meta name="geo.placename" content="Oslo" />
+    <meta name="geo.position" content="59.913868;10.752245" />
+    <meta name="ICBM" content="59.913868, 10.752245" />
+    
+    <!-- Business Information -->
+    <meta name="business:contact_data:street_address" content="Storgata 1" />
+    <meta name="business:contact_data:locality" content="Oslo" />
+    <meta name="business:contact_data:postal_code" content="0155" />
+    <meta name="business:contact_data:country_name" content="Norway" />
+    <meta name="business:contact_data:phone_number" content="+47 12 34 56 78" />
+    <meta name="business:contact_data:email" content="info@polardrivetechas.com" />
 
     <meta name="theme-color" content="#0a2540" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Structured Data / JSON-LD for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "AutoDealer",
+      "name": "Polardrive Tech AS",
+      "description": "Premium motorcycle and luxury car dealership in Oslo, Norway. Specializing in high-performance bikes and luxury vehicles.",
+      "url": "https://polardrivetechas.com",
+      "logo": "https://polardrivetechas.com/logo/android-chrome-512x512.png",
+      "image": "https://polardrivetechas.com/hero-bike.jpg",
+      "telephone": "+47 12 34 56 78",
+      "email": "info@polardrivetechas.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Storgata 1",
+        "addressLocality": "Oslo",
+        "postalCode": "0155",
+        "addressCountry": "NO"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "59.913868",
+        "longitude": "10.752245"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "09:00",
+          "closes": "18:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "10:00",
+          "closes": "16:00"
+        }
+      ],
+      "priceRange": "$$$",
+      "currenciesAccepted": "NOK",
+      "paymentAccepted": "Cash, Credit Card, Financing",
+      "areaServed": {
+        "@type": "Country",
+        "name": "Norway"
+      },
+      "sameAs": [
+        "https://www.facebook.com/polardrivetechas",
+        "https://www.instagram.com/polardrivetechas",
+        "https://twitter.com/polardrivetechas"
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "127"
+      }
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>

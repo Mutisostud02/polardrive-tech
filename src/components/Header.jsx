@@ -15,8 +15,15 @@ export default function Header() {
         <div className="brand">
           <Link to="/" onClick={closeMenu} aria-label="Polardrive Tech AS – Home">
             <div className="logo-container">
-              <span className="logo-text">Polardrive</span>
-              <span className="logo-subtext">TECH AS</span>
+              <img 
+                src="/logo/android-chrome-192x192.png" 
+                alt="Polardrive Tech AS Logo" 
+                className="brand-logo-img"
+              />
+              <div className="logo-text-group">
+                <span className="logo-text">Polardrive</span>
+                <span className="logo-subtext">TECH AS</span>
+              </div>
             </div>
           </Link>
         </div>

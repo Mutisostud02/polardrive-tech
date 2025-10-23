@@ -56,11 +56,6 @@ export default function Footer() {
         <div className="footer-bottom">
           <div className="footer-bottom-content">
             <p>&copy; {currentYear} Polardrive Tech AS. All rights reserved.</p>
-            <div className="legal-links">
-              <a href="/privacy-policy">Privacy Policy</a>
-              <a href="/terms-of-service">Terms of Service</a>
-              <a href="/cookie-policy">Cookie Policy</a>
-            </div>
           </div>
         </div>
       </div>

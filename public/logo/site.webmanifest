@@ -1,0 +1,22 @@
+{
+  "name": "Polardrive Tech AS",
+  "short_name": "Polardrive",
+  "description": "Premium motorcycle and luxury car dealership in Oslo, Norway",
+  "icons": [
+    {
+      "src": "/logo/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/logo/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#0a2540",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "start_url": "/",
+  "scope": "/"
+}
